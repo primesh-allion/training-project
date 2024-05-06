@@ -21,8 +21,11 @@ a {
   padding: 8px 20px;
   border-radius: 2px;
   outline: none;
-  border: none;
+  border: 2px solid #501855;
+  border-radius: 8px;
   cursor: pointer;
+  padding: 8px 16px;
+  margin: 10px;
 }
 
 .btn-primary {
@@ -35,7 +38,6 @@ a {
 }
 
 .navbar {
-  box-shadow: 0px 5px 10px 0px #aaa;
   position: fixed;
   width: 100%;
   background: #505050;
@@ -65,11 +67,66 @@ a {
   display: none;
 }
 
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  padding: 2rem 5rem;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  columns: 2;
+  gap: 5rem;
+}
+
+.hero-content {
+  width: 50%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero-description {
+  width: 50%;
+  line-height: 2rem;
+}
+
+.hero-img-container {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.hero-img-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 700;
+}
+
+.hero-img-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .navbar {
     display: block;
-    position: relative;
+    position: fixed;
     height: 54px;
+  }
+  .btn-login {
+    display: none;
   }
 
   .hamburger-menu {
@@ -99,7 +156,6 @@ a {
     margin-left: -60px;
     padding-left: 40px;
     transition: transform 0.5s ease-in-out;
-    box-shadow: 2px 0px 5px 0px #aaa;
     overflow: scroll;
   }
 
@@ -115,5 +171,68 @@ a {
 
   .navbar a {
     color: #000000;
+  }
+
+  .container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 0%;
+  }
+
+  .hero-img-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .hero-img-mobile {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero-content {
+    padding: 10px 15px;
+  }
+
+  .hero-description {
+    font-size: 14px;
+    line-height: 28px;
+    padding: 10px 15px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 48px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-buttons button {
+    margin: 10px;
+  }
+  .hero-img-mobile {
+    display: block;
+  }
+  .hero-img-desktop {
+    display: none;
+  }
+  .hero-section {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    columns: auto;
+  }
+
+  .hero-content {
+    width: 100%;
+    align-items: center;
   }
 }
