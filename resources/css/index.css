@@ -291,7 +291,7 @@
 
   .navbar {
     width: 100%;
-    height: 56px; /* Slightly smaller for tablet view */
+    height: 56px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -314,12 +314,12 @@
   }
 
   .menu-items li {
-    padding: 1.5%; /* Adjust padding for smaller devices */
+    padding: 1.5%;
   }
 
   .menu-items a {
     color: #fff;
-    font-size: 14px; /* Slightly smaller font size for tablets */
+    font-size: 14px;
   }
 
   .container {
@@ -333,13 +333,13 @@
     width: 100%;
     height: 80vh;
     display: flex;
-    flex-direction: column; /* Change to column for smaller view */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
   .hero-img-container {
-    height: 50%; /* Adjust height to split with content */
+    height: 50%;
     padding: 2%;
     display: flex;
     justify-content: center;
@@ -352,33 +352,33 @@
   }
 
   .hero-content {
-    height: 40%; /* Adjust height to split with image */
+    height: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center; /* Centered for smaller screens */
+    align-items: center;
   }
 
   .hero-content h1 {
-    font-size: 48px; /* Slightly smaller font for tablets */
+    font-size: 48px;
     line-height: 56px;
     font-weight: 700;
-    text-align: center; /* Align text to center */
+    text-align: center;
   }
 
   .hero-description {
-    text-align: center; /* Align description to center */
+    text-align: center;
   }
 
   .hero-buttons {
     margin: 0%;
-    width: 100%; /* Full width for buttons */
+    width: 100%;
     display: flex;
-    justify-content: center; /* Centered buttons */
+    justify-content: center;
   }
 
   .hero-buttons button {
-    margin-right: 3%; /* Reduced margin for smaller screens */
+    margin-right: 3%;
   }
 
   .work-container {
@@ -388,23 +388,23 @@
 
   .work-section {
     display: flex;
-    flex-direction: column; /* Switch to column layout for tablets */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
   .work-content {
     padding: 0% 5%;
-    width: 100%; /* Full width */
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centered alignment */
+    align-items: center;
   }
 
   .work-img-container {
-    width: 100%; /* Full width */
+    width: 100%;
     display: flex;
-    justify-content: center; /* Centered alignment */
+    justify-content: center;
     align-items: center;
   }
 }
