@@ -254,6 +254,7 @@
   }
   .hero-description {
     text-align: left;
+    margin-top: 2%;
   }
 
   .hero-buttons {
@@ -301,6 +302,9 @@
   }
   .work-section-right {
     flex-direction: row-reverse;
+  }
+  .work-section-right .work-content {
+    padding-left: 6%;
   }
   .work-img-container-right {
     justify-content: flex-start;
