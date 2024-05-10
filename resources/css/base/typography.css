@@ -1,0 +1,46 @@
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-body);
+  color: var(--base-secondary-color-2);
+}
+
+h1 {
+  font-size: var(--font-mobile-h1);
+  font-weight: var(--font-weight-700);
+  line-height: var(--line-height-mobile-h1);
+}
+
+/* viewport above 768px consider as desktop */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: var(--font-desktop-h1);
+    line-height: var(--line-height-desktop-h1);
+  }
+}
+
+h2 {
+  font-size: var(--font-mobile-h2);
+}
+
+h3 {
+  font-size: var(--font-mobile-h3);
+}
+
+h2,
+h3 {
+  font-weight: var(--font-weight-400);
+}
+
+button {
+  font-size: var(--font-button);
+}
+
+.nav-menu-item {
+  font-size: var(--font-nav-menu);
+  color: var(--base-secondary-color-1);
+}
+
+.tag {
+  font-size: var(--font-article-tag);
+  color: var(--base-tag-color);
+}
