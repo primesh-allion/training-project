@@ -1,0 +1,11 @@
+.article__tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 94px;
+  height: 24px;
+  font-size: var(--font-article-tag);
+  font-weight: var(--font-weight-400);
+  background-color: var(--base-tag-bgcolor);
+  color: var(--base-tag-color);
+}

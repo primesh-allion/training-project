@@ -1,0 +1,23 @@
+.article__image {
+    display: block;
+    width: 100%;
+    padding: 0;
+    object-fit: contain;
+}
+
+.article__image * {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .article__image {
+        max-width: 561px;
+        max-height: 321px;
+        
+    }
+  }
+
+.article__image--padding {
+    padding: 0 17.5px;
+}

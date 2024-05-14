@@ -33,6 +33,8 @@ h3 {
 
 button {
   font-size: var(--font-button);
+  font-weight: var(--font-weight-400);
+
 }
 
 .nav-menu-item {
