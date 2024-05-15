@@ -1,10 +1,25 @@
+/* utilities */
 @import url(./utilities/normalized.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* organisms */
+@import url(./design-systems/organisms/article.css);
+
+/* molecules */
+@import url(./design-systems/molecules/article.css);
+
+
+
+/* atoms */
 @import url(./design-systems/atom/button.css);
 @import url(./design-systems/atom/typography.css);
-@import url(./design-systems/token/var.css);
 @import url(./design-systems/atom/article-tag.css);
 @import url(./design-systems/atom/picture.css);
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* tokens */
+@import url(./design-systems/token/var.css);
+
+
 
 
 header {
