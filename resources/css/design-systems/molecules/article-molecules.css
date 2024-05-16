@@ -1,0 +1,34 @@
+.article__section-header {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.article__tags__container,
+.article__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.article__tags__container {
+  width: 354px;
+  height: 44px;
+}
+
+.article__buttons {
+  gap: 16px;
+}
+
+.article__desctiption p {
+  line-height: var(--line-height-p);
+}
+
+@media screen and (min-width: 768px) {
+  .article__tags__container,
+  .article__buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+}

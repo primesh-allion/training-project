@@ -1,28 +1,31 @@
 /* utilities */
 @import url(./utilities/normalized.css);
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* organisms */
-@import url(./design-systems/organisms/article.css);
+@import url(./design-systems/organisms/article-organism.css);
+@import url(./design-systems/organisms/hero-organism.css);
 
 /* molecules */
-@import url(./design-systems/molecules/article.css);
-
-
+@import url(./design-systems/molecules/article-molecules.css);
 
 /* atoms */
-@import url(./design-systems/atom/button.css);
-@import url(./design-systems/atom/typography.css);
-@import url(./design-systems/atom/article-tag.css);
-@import url(./design-systems/atom/picture.css);
+@import url(./design-systems/atoms/button.css);
+@import url(./design-systems/atoms/typography.css);
+@import url(./design-systems/atoms/article-tag.css);
+@import url(./design-systems/atoms/picture.css);
 
 /* tokens */
 @import url(./design-systems/token/var.css);
 
+/* layouts */
+@import url(./design-systems/layouts/article-layout.css);
+@import url(./design-systems/layouts/hero-layout.css);
 
-
+/* sections */
+@import url(./design-systems/sections/article-section.css);
+@import url(./design-systems/sections/hero-section.css);
 
 header {
   background: var(--base-secondary-color-3);
 }
-

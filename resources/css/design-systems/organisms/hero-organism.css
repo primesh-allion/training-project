@@ -1,0 +1,19 @@
+.hero__section .article__content {
+  padding: 9px 18px 0px;
+}
+
+.hero__section .article__title {
+  width: 349px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__section .article__content {
+    width: 636px;
+    text-align: left;
+    padding: 0%;
+  }
+
+  .hero__section .article__image {
+    width: 542px;
+  }
+}

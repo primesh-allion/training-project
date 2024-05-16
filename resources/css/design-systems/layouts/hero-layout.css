@@ -1,0 +1,13 @@
+.article {
+  margin: 44px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__section .article {
+    width: 1266px;
+    height: 355px;
+    gap: 88px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}

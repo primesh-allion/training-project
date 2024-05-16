@@ -1,0 +1,12 @@
+.article__section {
+  margin: 40px 0;
+  padding: 0 16.5px;
+}
+@media screen and (min-width: 768px) {
+  .article__section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,12 @@
+@media screen and (min-width: 768px) {
+  .hero__section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero__section .article__title {
+    width: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+.article__content,
+.article__footer {
+  display: grid;
+  row-gap: 9px;
+}
+
+.article__content {
+  text-align: center;
+  padding-top: 9px;
+}
+
+@media screen and (min-width: 768px) {
+  .article__content,
+  .article__image {
+    width: 50%;
+  }
+
+  .article__content {
+    text-align: left;
+  }
+}
