@@ -1,0 +1,20 @@
+.menu-item a {
+  color: var(--base-secondary-color-1);
+  display: block;
+  padding: 20px 40px;
+}
+
+.active {
+  border-left: 2px solid var(--base-secondary-color-1);
+}
+
+@media screen and (min-width: 768px) {
+  .menu-item a {
+    padding: 10px;
+  }
+
+  .active {
+    border-left: none;
+    border-bottom: 2px solid var(--base-secondary-color-1);
+  }
+}
